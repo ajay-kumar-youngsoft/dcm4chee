@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231215204736" id="dcm4chee.archive:service=XDS-I">
+<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231218144330" id="dcm4chee.archive:service=XDS-I">
 <attribute name="SourceID" type="java.lang.String">1.3.6.1.4.1.21367.2009.1.2.134.54.1.30.1</attribute>
 <attribute name="AutoPublishSourceAETitles" type="java.lang.String">NONE</attribute>
-<attribute name="DocRepositoryURI" type="java.lang.String">http://localhost:8080/dcm4chee-xds/XDSRepository</attribute>
+<attribute name="DocRepositoryURI" type="java.lang.String">http://localhost:8000/dcm4chee-xds/XDSRepository</attribute>
 <attribute name="DocRepositoryAET" type="java.lang.String">NONE</attribute>
 <attribute name="MetadataPropertyFile" type="java.lang.String">conf/dcm4chee-xdsi/nist/metadata.conf</attribute>
 <attribute name="DocTitleCodeListFile" type="java.lang.String">conf/dcm4chee-xdsi/nist/docTitleCodes.txt</attribute>
@@ -15,7 +15,7 @@
 <attribute name="AuthorRoles" type="java.lang.String">stdRole^Standard Role;adminRole^Admin Role</attribute>
 <attribute name="AutoPublishPropertyFile" type="java.lang.String">conf/dcm4chee-xdsi/nist/metadata.conf</attribute>
 <attribute name="AutoPublishDocTitle" type="java.lang.String">AutoPublish^Automatic XDS-I export of received images</attribute>
-<attribute name="RidURL" type="java.lang.String">http://localhost:8080/rid/IHERetrieveDocument?requestType=DOCUMENT&amp;preferredContentType=application/pdf&amp;documentUID=</attribute>
+<attribute name="RidURL" type="java.lang.String">http://localhost:8000/rid/IHERetrieveDocument?requestType=DOCUMENT&amp;preferredContentType=application/pdf&amp;documentUID=</attribute>
 <attribute name="LocalDomain" type="java.lang.String">NONE</attribute>
 <attribute name="AffinityDomain" type="java.lang.String">=?AffinityDomain</attribute>
 <attribute name="RemoveNamespaceID" type="java.lang.Boolean">false</attribute>

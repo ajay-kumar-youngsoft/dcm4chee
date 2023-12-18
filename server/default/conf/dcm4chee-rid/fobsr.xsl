@@ -9,7 +9,7 @@
     <xsl:variable name="SR_3" select="'1.2.840.10008.5.1.4.1.1.88.33'"/><!-- ComprehensiveSR -->
     <xsl:variable name="SR_4" select="'1.2.840.10008.5.1.4.1.1.88.59'"/><!-- KeyObjectSelectionDocument -->
     
-    <xsl:param name="wadoURL" select="'http://localhost:8080/wado'"/>
+    <xsl:param name="wadoURL" select="'http://localhost:8000/wado'"/>
     <xsl:param name="srImageRows" />
     <!-- the stylesheet processing entry point -->
 	<xsl:template match="/">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231215204735" id="dcm4chee.archive:service=UPSScp">
+<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231218144329" id="dcm4chee.archive:service=UPSScp">
 <attribute name="CalledAETitles" type="java.lang.String">MyAET</attribute>
 <attribute name="CallingAETitles" type="java.lang.String">ANY</attribute>
 <attribute name="WorklistLabel" type="java.lang.String">Worklist</attribute>

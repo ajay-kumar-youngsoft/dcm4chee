@@ -199,7 +199,7 @@
     <name>WadoURL</name>
     <type>java.lang.String</type>
     <descriptors>
-      <value value="http://localhost:8080/wado" />
+      <value value="http://localhost:8000/wado" />
     </descriptors>
   </attribute>
 

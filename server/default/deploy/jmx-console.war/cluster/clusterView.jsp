@@ -30,7 +30,7 @@
       }
       catch(IOException e)  {}
 
-      String hostURL = "http://"+host+":8080/jmx-console//HtmlAdaptor?action=displayMBeans";
+      String hostURL = "http://"+host+":8000/jmx-console//HtmlAdaptor?action=displayMBeans";
 %>
       <li><a href="<%= hostURL%>" target="ClusterNodeView"><%= hostname %></a></li>
 <%

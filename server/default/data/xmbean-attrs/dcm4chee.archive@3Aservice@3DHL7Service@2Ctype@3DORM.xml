@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231215204727" id="dcm4chee.archive:service=HL7Service,type=ORM">
+<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231218144321" id="dcm4chee.archive:service=HL7Service,type=ORM">
 <attribute name="MessageTypes" type="java.lang.String">ORM^O01</attribute>
 <attribute name="OrderControlOperationMap" type="java.lang.String">NW:NW&#13;
 XO:XO&#13;

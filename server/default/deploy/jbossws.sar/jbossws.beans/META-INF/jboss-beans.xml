@@ -22,7 +22,7 @@
       Otherwise the ports will be identified by querying the list of installed connectors. 
       If multiple connectors are found the port of the first connector is used.
       <property name="webServiceSecurePort">8443</property>
-      <property name="webServicePort">8080</property>
+      <property name="webServicePort">8000</property>
     -->
   </bean>
 

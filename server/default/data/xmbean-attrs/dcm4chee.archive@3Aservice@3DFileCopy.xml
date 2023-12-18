@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231215204724" id="dcm4chee.archive:service=FileCopy">
+<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231218144319" id="dcm4chee.archive:service=FileCopy">
 <attribute name="DestinationFileSystem" type="java.lang.String">NONE</attribute>
 <attribute name="HSMModulServicename" type="java.lang.String">NONE</attribute>
 <attribute name="FileStatus" type="java.lang.String">TO_ARCHIVE</attribute>

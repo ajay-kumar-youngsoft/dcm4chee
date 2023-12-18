@@ -46,7 +46,7 @@
       <name>DocRepositoryURI</name>
       <type>java.lang.String</type>
       <descriptors>
-         <value value="http://localhost:8080/dcm4chee-xds/XDSRepository"/>
+         <value value="http://localhost:8000/dcm4chee-xds/XDSRepository"/>
       </descriptors>
    </attribute>
    <attribute access="read-write" getMethod="getDocRepositoryAET" setMethod="setDocRepositoryAET">
@@ -190,7 +190,7 @@
       <name>RidURL</name>
       <type>java.lang.String</type>
       <descriptors>
-         <value value="http://localhost:8080/rid/IHERetrieveDocument?requestType=DOCUMENT&amp;preferredContentType=application/pdf&amp;documentUID="/>
+         <value value="http://localhost:8000/rid/IHERetrieveDocument?requestType=DOCUMENT&amp;preferredContentType=application/pdf&amp;documentUID="/>
       </descriptors>
    </attribute>
    

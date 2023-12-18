@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231215204725" id="dcm4chee.archive:service=FileSystemMgt,group=LOSSY_STORAGE">
+<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231218144320" id="dcm4chee.archive:service=FileSystemMgt,group=LOSSY_STORAGE">
 <attribute name="DefaultRetrieveAETitle" type="java.lang.String">MyAET</attribute>
 <attribute name="DefaultAvailability" type="java.lang.String">ONLINE</attribute>
 <attribute name="DefaultStorageDirectory" type="java.lang.String">archive-lossy</attribute>

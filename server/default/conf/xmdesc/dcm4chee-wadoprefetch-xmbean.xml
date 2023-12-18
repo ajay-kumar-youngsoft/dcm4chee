@@ -18,7 +18,7 @@
    			<dd/>
    			<dd>wadourl    : WADO URL without objectUID parameter. (will be added for every image of the series)</dd> 
    			<dd>exportPath : Directory path for exported images. '{0}' will be replaced with SOP Instance UID</dd>
-   			<dd>e.g.: &lt;prefetch wado="http://localhost:8080/wado?requestType=WADO&amp;studyUID=1.2.3&amp;seriesUID=1.2.4"</dd>
+   			<dd>e.g.: &lt;prefetch wado="http://localhost:8000/wado?requestType=WADO&amp;studyUID=1.2.3&amp;seriesUID=1.2.4"</dd>
    			<dd>                   exportPath="exported/1.2.3/1.2.4/{0}.jpg" /&gt;</dd> 
    		</dl>
    ]]></description>
@@ -46,7 +46,7 @@
       <name>WadoBaseUrl</name>
       <type>java.lang.String</type>
       <descriptors>
-         <value value="http://localhost:8080/wado?requestType=WADO" />
+         <value value="http://localhost:8000/wado?requestType=WADO" />
       </descriptors>
    </attribute>
 

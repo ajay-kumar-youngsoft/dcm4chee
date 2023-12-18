@@ -68,7 +68,7 @@ import javax.management.*;
          return ctx.createTreeNode (
                "Unified ClassLoaders", // name
                "Display all JBoss UCLs", // description
-               "http://localhost:8080/web-console/arrow.gif", // Icon URL
+               "http://localhost:8000/web-console/arrow.gif", // Icon URL
                "http://www.jboss.org/", // Default URL
                menus,
                null, // sub nodes

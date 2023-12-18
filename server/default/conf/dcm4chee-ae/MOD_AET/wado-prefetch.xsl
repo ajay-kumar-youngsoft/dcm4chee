@@ -26,7 +26,7 @@
   -->
   <xsl:param name="source-aet"/>
   <xsl:param name="retrieve-aet"/>
-  <xsl:param name="wado-baseurl">http://localhost:8080/wado?requestType=WADO</xsl:param>
+  <xsl:param name="wado-baseurl">http://localhost:8000/wado?requestType=WADO</xsl:param>
   <xsl:param name="export-path">exported</xsl:param>
 
   <xsl:template match="/dataset">

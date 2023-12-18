@@ -4,7 +4,7 @@
 <mbean>
    <description><![CDATA[AE Configuration Service.
    Used to list/add/remove AE configuration entities - alternatively to more convenient
-   AE Management Page of the <a href='http://localhost:8080/dcm4chee-web/'>
+   AE Management Page of the <a href='http://localhost:8000/dcm4chee-web/'>
    Administration Web Application</a>.
    Used/Required by various DICOM services (Query/Retrieve SCP, Storage Commitment SCU/SCP,
    DICOM Hanging Protocol SCP) to 'guess' the port number of DICOM peer Application Entities,

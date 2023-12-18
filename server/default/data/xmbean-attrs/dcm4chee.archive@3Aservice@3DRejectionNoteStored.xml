@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231215204732" id="dcm4chee.archive:service=RejectionNoteStored">
+<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231218144326" id="dcm4chee.archive:service=RejectionNoteStored">
 <attribute name="RejectionNoteCodes" type="java.lang.String">       (113001, DCM, "Rejected for Quality Reasons")       (113037, DCM, "Rejected for Patient Safety Reasons")       </attribute>
 <attribute name="DeletionDelay" type="java.lang.String">1m</attribute>
 <attribute name="KeepRejectionNote" type="java.lang.Boolean">true</attribute>

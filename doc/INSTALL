@@ -150,12 +150,12 @@ exception messages:
 17:19:11,496 INFO  [Server] JBoss (MX MicroKernel) [4.2.3.GA
  (build: SVNTag=JBoss_4_2_3_GA date=200807181439)] Started in 21s:919ms
 
-10. Connect to the Web Interface at http://localhost:8080/dcm4chee-web3/
+10. Connect to the Web Interface at http://localhost:8000/dcm4chee-web3/
 of the archive using any Web Browser (most tested are Mozilla-Firefox and
 Microsoft Internet Explorer v8.x). You should get the User Login Screen.
 Login in using default Administrator account 'admin', with password 'admin'.
 
-11. Connect to JBoss's JMX Console at http://localhost:8080/jmx-console/ and
+11. Connect to JBoss's JMX Console at http://localhost:8000/jmx-console/ and
 login using also the Administrator account 'admin', with password 'admin'.
 
 Follow the link "group=ONLINE_STORAGE,service=FileSystemMgt" under the
@@ -171,7 +171,7 @@ dcm4chee-2.17.1-xxx/server/default/archive as Storage File System, when
 receiving the first object/image)
 
 12. [Optional] Change the default AE Title
-Connect to JBoss's JMX Console at http://localhost:8080/jmx-console/ and login
+Connect to JBoss's JMX Console at http://localhost:8000/jmx-console/ and login
 using also the Administrator account 'admin', with password 'admin'.
 
 Follow the link "service=AE" to the configuration page for AE Configuration
@@ -206,7 +206,7 @@ send utility of the dcm4che 2.0 core package available at Sourceforge
 
 > dcm4che-2.0.21/bin/dcmsnd DCM4CHEE@localhost:11112 ~/mesa/storage/modality/MR
 
-Refresh the Web Interface (http://localhost:8080/dcm4chee-web3/), which shall 
+Refresh the Web Interface (http://localhost:8000/dcm4chee-web3/), which shall 
 now show the the list of received studies.
 
 Expand one study row to show contained series. Expand one of these series
@@ -341,7 +341,7 @@ Audit Records received by dcm4chee-arr-2.x and stored in database table
 'audit_record_old' can be migrated to dcm4chee-arr-3.x by re-emission to the
 new Audit Record Repository by service 'MigrateOldARR':
 
-1. Connect to JBoss's JMX Console at http://localhost:8080/jmx-console/ and
+1. Connect to JBoss's JMX Console at http://localhost:8000/jmx-console/ and
 login using the Administrator account 'admin', with password 'admin'.
 
 Follow the link "service=MigrateOldARR" under the "dcm4chee.archive" heading.
@@ -350,7 +350,7 @@ Invoke the operation emitAuditRecords(), with argument num=1, to test the
 migration on the first Audit Record in table audit_record_old.
 
 Check in the Audit Record Repository Web Application
-(http://localhost:8080/dcm4chee-arr) if the record is now stored by 
+(http://localhost:8000/dcm4chee-arr) if the record is now stored by 
 dcm4chee-arr-3.x.
 
 2. Determine the number of Audit Records to migrate by (e.g.) executing

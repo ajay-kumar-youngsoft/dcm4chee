@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231215205057" id="dcm4chee.web:service=WebConfig">
+<!-- automatically produced by XMLAttributePersistenceManager --><attribute-list date="20231218144613" id="dcm4chee.web:service=WebConfig">
 <attribute name="WebConfigPath" type="java.lang.String">conf/dcm4chee-web3</attribute>
-<attribute name="dicomSecurityServletUrl" type="java.lang.String">http://localhost:8080/dcm4chee-web3-dicom/dicom-security-servlet</attribute>
+<attribute name="dicomSecurityServletUrl" type="java.lang.String">http://localhost:8000/dcm4chee-web3-dicom/dicom-security-servlet</attribute>
 <attribute name="WadoBaseURL" type="java.lang.String">NONE</attribute>
 <attribute name="RIDBaseURL" type="java.lang.String">NONE</attribute>
 <attribute name="WebviewerNames" type="java.lang.String">NONE</attribute>
