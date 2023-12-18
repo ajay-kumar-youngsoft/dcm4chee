@@ -1,0 +1,16 @@
+2023-12-15 21:03:12,364 DEBUG -> (main) [org.jnp.server.NamingBeanImpl] Using NamingServer: org.jnp.server.NamingServer@2e379144
+2023-12-15 21:03:12,367 DEBUG -> (main) [org.jnp.server.NamingBeanImpl] Installed global NamingServer: org.jnp.server.NamingServer@2e379144
+2023-12-15 21:03:12,376 DEBUG -> (main) [org.jnp.server.NamingBeanImpl] InitialContext Environment: 
+2023-12-15 21:03:12,376 DEBUG -> (main) [org.jnp.server.NamingBeanImpl] key=java.naming.factory.initial, value(java.lang.String)=org.jnp.interfaces.NamingContextFactory
+2023-12-15 21:03:12,377 DEBUG -> (main) [org.jnp.server.NamingBeanImpl] key=java.naming.factory.url.pkgs, value(java.lang.String)=org.jboss.naming:org.jnp.interfaces
+2023-12-15 21:03:12,515 INFO  -> (main) [com.arjuna.ats.jbossatx.jta.TransactionManagerService] JBossTS Transaction Service (JTA version) - JBoss Inc.
+2023-12-15 21:03:12,515 INFO  -> (main) [com.arjuna.ats.jbossatx.jta.TransactionManagerService] Setting up property manager MBean and JMX layer
+2023-12-15 21:03:12,660 INFO  -> (main) [com.arjuna.ats.jbossatx.jta.TransactionManagerService] Starting recovery manager
+2023-12-15 21:03:12,887 INFO  -> (main) [com.arjuna.ats.jbossatx.jta.TransactionManagerService] Recovery manager started
+2023-12-15 21:03:12,887 INFO  -> (main) [com.arjuna.ats.jbossatx.jta.TransactionManagerService] Binding TransactionManager JNDI Reference
+2023-12-15 21:03:13,895 INFO  -> (JBoss Shutdown Hook) [org.jboss.system.server.Server] Runtime shutdown hook called, forceHalt: true
+2023-12-15 21:03:13,900 INFO  -> (JBoss Shutdown Hook) [org.jboss.system.server.Server] JBoss SHUTDOWN: Undeploying all packages
+2023-12-15 21:03:14,905 ERROR -> (main) [org.jboss.deployment.scanner.URLDeploymentScanner] java.lang.NullPointerException
+2023-12-15 21:03:14,908 INFO  -> (JBoss Shutdown Hook) [com.arjuna.ats.jbossatx.jta.TransactionManagerService] Stopping recovery manager
+2023-12-15 21:03:14,921 INFO  -> (main) [org.jboss.system.server.Server] JBoss (MX MicroKernel) [4.2.3.GA (build: SVNTag=JBoss_4_2_3_GA date=200807181417)] Started in 13s:612ms
+2023-12-15 21:03:14,952 INFO  -> (JBoss Shutdown Hook) [org.jboss.system.server.Server] Shutdown complete

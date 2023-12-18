@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- automatically produced by XMLAttributePersistenceManager -->
+<attribute-list date="20231205170633" id="dcm4chee.archive:service=AuditLogger">
+<attribute name="AuditSourceTypeCodes" type="java.lang.String">4</attribute>
+<attribute name="LocalAETitles" type="java.lang.String">MyAET</attribute>
+<attribute name="EnableDNSLookups" type="java.lang.Boolean">false</attribute>
+<attribute name="IncludeXMLDeclaration" type="java.lang.Boolean">false</attribute>
+<attribute name="TimezonedDateTime" type="java.lang.Boolean">true</attribute>
+<attribute name="UtcDateTime" type="java.lang.Boolean">false</attribute>
+<attribute name="QualifyHostname" type="java.lang.Boolean">false</attribute>
+<attribute name="EncodeUserIsRequestorTrue" type="java.lang.Boolean">false</attribute>
+<attribute name="AllowMultipleRequestors" type="java.lang.Boolean">false</attribute>
+<attribute name="ConfigurationDirectory" type="java.lang.String">conf/dcm4chee-auditlog</attribute>
+</attribute-list>
